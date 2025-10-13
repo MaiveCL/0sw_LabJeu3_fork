@@ -62,7 +62,9 @@ upstream        https://github.com/nbourre/0sw_projets_cours.git (push)`
 Quand tu as modifié quelque chose :
 
 ```bash
-git add . git commit -m "Travail sur c07_plateforme" git push origin main
+git add . 
+git commit -m "Travail sur c07_plateforme" 
+git push origin master
 ```
 
 > Toujours sauvegarder ton travail actuel avant de fusionner.
@@ -103,7 +105,8 @@ Ton fork est une copie du dépôt du prof, mais après ton fork le dépôt du pr
 
 - Ensuite :
 
-`git add <fichier_conflit> git commit -m "Résolution du conflit"`
+`git add <fichier_conflit> 
+git commit -m "Résolution du conflit"`
 
 ---
 
