@@ -7,7 +7,7 @@ public partial class viking : CharacterBody2D
 {
 	bool isDebugging = true;
 	float MAX_VELOCITY;
-	float MAX_JUMP = -300;
+	float MAX_JUMP = -600;
 	float MAXFALLSPEED = 200;
 	float HALT_SPEED = 0.325F;
 	int ACCELERATION = 10;
@@ -40,7 +40,7 @@ public partial class viking : CharacterBody2D
 	void initValues()
 	{
 		MAX_VELOCITY = 80 * Scale.X;
-		MAX_JUMP = -300 * Scale.Y;
+		MAX_JUMP = -600 * Scale.Y;
 		MAXFALLSPEED = 200 * Scale.Y;
 		ACCELERATION = 10 * (int)Scale.X;
 		gravity = 20 * (int)Scale.Y;

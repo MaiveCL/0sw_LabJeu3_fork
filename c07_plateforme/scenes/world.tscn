@@ -1,5 +1,6 @@
-[gd_scene load_steps=5 format=4 uid="uid://c766fl78o0cjk"]
+[gd_scene load_steps=6 format=4 uid="uid://c766fl78o0cjk"]
 
+[ext_resource type="PackedScene" uid="uid://cuye3ec5q80hy" path="res://scenes/parallaxBackground.tscn" id="1_4wyf3"]
 [ext_resource type="PackedScene" uid="uid://co806t5p15df4" path="res://scenes/player.tscn" id="1_nnsk1"]
 [ext_resource type="Texture2D" uid="uid://c0gkr0u00vmyq" path="res://assets/sprites/world_tileset.png" id="2_rwgxs"]
 
@@ -139,6 +140,11 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_4wyf3")
 
 [node name="World" type="Node2D"]
+
+[node name="ParallaxBackground" parent="." instance=ExtResource("1_4wyf3")]
+offset = Vector2(100, 75)
+scale = Vector2(0.25, 0.25)
+transform = Transform2D(0.25, 0, 0, 0.25, 100, 75)
 
 [node name="Player" parent="." instance=ExtResource("1_nnsk1")]
 
