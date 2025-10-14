@@ -215,7 +215,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_qlg0r"]
 resource_name = "attack"
-length = 3.5
+length = 1.7
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -223,7 +223,7 @@ tracks/0/path = NodePath("SpriteSheet:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = false
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.433333, 0.866667, 1.33333, 1.8, 2.26667, 2.73333, 3.16667),
+"times": PackedFloat32Array(0, 0.2, 0.466667, 0.733333, 1, 1.26667, 1.53333, 3.16667),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
 "values": [40, 41, 42, 43, 44, 45, 46, 47]
